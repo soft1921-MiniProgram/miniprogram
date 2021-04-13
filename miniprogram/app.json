@@ -1,22 +1,24 @@
-{ "cloud": true,
+{
+  "cloud": true,
   "pages": [
     "pages/homePage/homePage",
     "pages/partition/partition",
     "pages/profile/profile"
   ],
-  "window":{
-    "backgroundColor": "#FFF",
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#FFF",
+  "window": {
+    "backgroundColor": "#FB7299",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f6f6",
     "navigationBarTitleText": "哔哩哔哩",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#474747",
     "selectedColor": "#FB7299",
     "borderStyle": "white",
-    "list": [
-      {
+    "backgroundColor": "#f6f6f6",
+
+    "list": [{
         "pagePath": "pages/homePage/homePage",
         "text": "主页",
         "iconPath": "images/tab/homePage.png",
