@@ -1,0 +1,14 @@
+<!--components/hot/hot.wxml-->
+<!-- 视频单元 -->
+  <view wx:for="{{videoList}}">
+    <!-- 视频图片、时长 -->
+    <view>
+      <img src="{{item.pic}}" alt=""/>
+    </view>
+    <!-- 视频其他内容 -->
+    <view>
+      <!-- 视频名称 -->
+      <text>{{item.title}}</text>
+      <!-- 视频作者 -->
+    </view>
+  </view>

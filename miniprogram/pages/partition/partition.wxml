@@ -1,0 +1,8 @@
+<!--pages/partition/partition.wxml-->
+<!-- <text>pages/partition/partition.wxml</text> -->
+<view class="container">
+  <view wx:for="{{iconList}}" class="outView">
+    <image src="{{item.iconUrl}}" mode="aspectFit" class="icon"></image>
+    <text style=" display: block">{{item.name}}</text>
+  </view>
+</view>

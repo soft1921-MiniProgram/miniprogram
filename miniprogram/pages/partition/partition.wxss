@@ -1,0 +1,24 @@
+/* pages/partition/partition.wxss */
+.container{
+  margin-top: 30rpx;
+padding:0rpx;
+position: relative;
+display: flex;
+width: 100%;
+flex-flow: wrap;
+justify-content: left;
+height: 100%;
+}
+
+.outView {
+  /* position: absolute; */
+  width: 25%;
+  height: 180rpx;
+  text-align:center;
+  display: block;
+}
+
+.icon {
+  width: 80%;
+  height: 60%;
+}

@@ -1,0 +1,7 @@
+<view class="container">
+
+    <!-- <image src="../../images/inp/search.png" mode="aspectFit"></image> -->
+    <input class="input"
+    value='{{inputValue}}' bindinput="onInput" bindfocus="onFocus"></input>
+
+</view>

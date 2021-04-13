@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "s-search": "/components/search/search",
+    "my-hot" : "/components/hot/hot"
+  }
+}

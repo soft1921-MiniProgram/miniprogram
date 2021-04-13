@@ -1,0 +1,22 @@
+.container {
+  display: inline;
+}
+
+.container .input {
+    height: 65rpx;
+    font-size: 28rpx;
+    border-radius: 50px;
+    border: 1px solid #dedede;
+    background-color: #e6e6e6;
+    padding-left: 60rpx;
+    box-sizing: border-box;
+    margin-right: 40rpx;
+    margin-left: 40rpx;
+}
+
+.container .image{
+  width: 20rpx;
+  height: 20rpx;
+}
+
+
