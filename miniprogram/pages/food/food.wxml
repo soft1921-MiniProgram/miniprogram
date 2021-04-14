@@ -1,0 +1,2 @@
+<!--pages/food/food.wxml-->
+<bilibili-navigation  title='美食'  direction="top"></bilibili-navigation>

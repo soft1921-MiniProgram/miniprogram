@@ -1,0 +1,2 @@
+<!--pages/gameEvents/gameEvents.wxml-->
+<bilibili-navigation  title='游戏赛事'  direction="top"></bilibili-navigation>

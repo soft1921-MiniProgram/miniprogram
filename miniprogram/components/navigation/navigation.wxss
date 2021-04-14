@@ -1,0 +1,36 @@
+/* components/nacigation/navigation.wxss */
+
+.navigation.status-bar{
+  width: 100%;
+  z-index:9999;
+  position: fixed;
+  top:0;
+}
+
+.navigation.status-bar .goBack{
+  position: absolute;
+  top:15rpx;
+  font-size: 12pt;
+}
+
+.navigation.status-bar .goBack image{
+  width: 36rpx;
+  height: 36rpx;
+  padding:12rpx 40rpx 0 30rpx;
+}
+
+.navigation.status-bar .tabar{
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.navigation.status-bar .text{
+  padding-top: 15rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  /* justify-content: center; */
+}
+
+
+

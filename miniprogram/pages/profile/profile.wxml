@@ -1,2 +1,2 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>

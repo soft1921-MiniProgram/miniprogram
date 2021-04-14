@@ -3,14 +3,38 @@
   "pages": [
     "pages/homePage/homePage",
     "pages/partition/partition",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/bangumi/bangumi",
+    "pages/aimtron/aimtron",
+    "pages/documentary/documentary",
+    "pages/cartoon/cartoon",
+    "pages/music/music",
+    "pages/dance/dance",
+    "pages/game/game",
+    "pages/knowledge/knowledge",
+    "pages/digital/digital",
+    "pages/life/life",
+    "pages/food/food",
+    "pages/animal/animal",
+    "pages/ghost/ghost",
+    "pages/fashion/fashion",
+    "pages/amusement/amusement",
+    "pages/movie/movie",
+    "pages/film/film",
+    "pages/teleplay/teleplay",
+    "pages/gameEvents/gameEvents"
+
   ],
   "window": {
-    "backgroundColor": "#FB7299",
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "哔哩哔哩",
     "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "bilibili-navigation":"/components/navigation/navigation"
   },
   "tabBar": {
     "color": "#474747",

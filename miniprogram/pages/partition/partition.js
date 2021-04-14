@@ -64,9 +64,11 @@ Page({
         iconUrl: '../../images/partition/game-competiton.png',
         name: '游戏赛事'
       }, 
-    ]
+    ],
+    
   },
 
+   
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,2 @@
+<!--pages/aimtron/aimtron.wxml-->
+<bilibili-navigation title='国创'  direction="top"></bilibili-navigation>

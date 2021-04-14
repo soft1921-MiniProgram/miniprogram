@@ -1,0 +1,2 @@
+<!--pages/animal/animal.wxml-->
+<bilibili-navigation  title='动物圈'  direction="top"></bilibili-navigation>

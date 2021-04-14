@@ -7,7 +7,7 @@
  height: 90%;
  /* letter-spacing: 8rpx; */
 }
-.outView {  
+.outView {                     
   width: 25%;
   height: 130rpx;
   float: left;
