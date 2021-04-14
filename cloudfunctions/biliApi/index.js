@@ -3,7 +3,7 @@ const cloud = require('wx-server-sdk')
 
 cloud.init({
   //每个人的环境Id
-  env: "yeweiyang-4gur9gh5b8efe65d"
+  env: "gin-6gs1iek44854c8ab"
 })
 
 //引入axios请求库

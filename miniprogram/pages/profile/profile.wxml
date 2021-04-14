@@ -1,2 +1,27 @@
+
 <!--pages/profile/profile.wxml-->
 <bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
+<view class="profile">
+    <view class="user-wrapper">
+        <view class="flex-cont flex-simple">
+          <view class="denglu-img"><image src="../../images/profile/denglu.png"></image></view>
+          <view class="flex-item">
+            <text class="p-tour">游客</text>
+            <text class="p-icon">硬币：-</text>
+          </view>
+        </view>
+    </view>
+  <view class="body-wrapper">
+  <view class="body-item">
+  <view class="p-his"><image src="../../images/profile/p-his.png"></image></view>
+  <text class="his-name">历史记录</text>
+  <view class="p-arrow"><image src="../../images/profile/p-arrow.png"></image></view>
+  </view>
+  <text class="body-tooltip">登陆后可同步播放记录</text>
+  </view>
+  <view class="account-wrapper">
+  <text class="account-btn">登  录</text>
+  <text class="account-register account-btn">注 册</text>
+  <text class="reg-tooltip">使用客户端注册可减少答题~</text>
+  </view>
+  </view>
