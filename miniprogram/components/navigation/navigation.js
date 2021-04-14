@@ -11,7 +11,7 @@ Component({
     },
     titleColor:{ //标题颜色，默认白色
       type:String,
-      value:'#'
+      value:'#000000'
     },
     showIcon:{ //返回箭头是否显示，默认显示
       type:Boolean,

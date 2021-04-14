@@ -3,7 +3,7 @@
 <bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
 <view class="container">
   <view wx:for="{{iconList}}" class="outView">
-    <image bind:tap="goTo" src="{{item.iconUrl}}" mode="aspectFit" class="icon"></image>
+    <image bind:tap="goTo" src="{{item.iconUrl}}" mode="aspectFit" class="icon" data-text="{{item.name}}"></image>
     <text style=" display: block">{{item.name}}</text>
   </view>
 </view>

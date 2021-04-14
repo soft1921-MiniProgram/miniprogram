@@ -6,6 +6,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    tabs: [],
+    activeTab: 0,
 
   },
 
@@ -18,7 +20,20 @@ Page({
     }).then((res) =>{
       console.log(res)
     })
+
+    const titles = ['热门', '追番']
+    const tabs = titles.map(item => ({title: item}))
+    this.setData({tabs})
     
+  },
+  onTabCLick(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
+  },
+
+  onChange(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
   },
   
 

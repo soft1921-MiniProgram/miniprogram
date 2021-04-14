@@ -27,6 +27,12 @@
         {
           "name": "pages/amusement/amusement",
           "pathName": "pages/amusement/amusement",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/partition/partition",
+          "pathName": "pages/partition/partition",
           "scene": null
         }
       ]

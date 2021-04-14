@@ -2,6 +2,8 @@
   "usingComponents": {
     "s-search": "/components/search/search",
     "my-hot" : "/components/hot/hot",
-    "bilibili-navigation":"/components/navigation/navigation"
+    "bilibili-navigation":"/components/navigation/navigation",
+    "bilibili-homeTabs":"/components/homeTabs/homeTabs"
+    
   }
 }
