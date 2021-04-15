@@ -19,12 +19,6 @@
           "query": ""
         },
         {
-          "name": "pages/bangumi/bangumi",
-          "pathName": "pages/bangumi/bangumi",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/amusement/amusement",
           "pathName": "pages/amusement/amusement",
           "query": "",
@@ -33,6 +27,25 @@
         {
           "name": "pages/partition/partition",
           "pathName": "pages/partition/partition",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "components/hot/hot",
+          "pathName": "components/hot/hot",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "partitionpages/bangumi/bangumi",
+          "pathName": "partitionpages/bangumi/bangumi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "partitionpages/aimtron/aimtron",
+          "pathName": "partitionpages/aimtron/aimtron",
+          "query": "",
           "scene": null
         }
       ]

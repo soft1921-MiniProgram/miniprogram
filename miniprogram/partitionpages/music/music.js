@@ -1,10 +1,12 @@
-// pages/music/music.js
+// pages/bangumi/bangumi.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    tabs: [],
+    activeTab: 0,
 
   },
 
@@ -12,7 +14,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const titles = ['推荐', '原创音乐', '翻唱', 'VOCALOID · UTAU', '电音', '演奏', 'MV', '音乐现场', '音乐综合']
+    const tabs = titles.map(item => ({title: item}))
+    this.setData({tabs})
+    
+  },
+  onTabCLick(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
+  },
 
+  onChange(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
   },
 
   /**

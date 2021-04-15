@@ -1,1 +1,29 @@
 /* pages/cartoon/cartoon.wxss */
+
+page{
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+.weui-tabs-bar__wrp {
+  margin-top: 5px;
+} 
+
+.weui-tabs-swiper {
+  width: 100%;
+  height: 100px;
+}
+
+.tab-content {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40rpx;
+} 
+
+.weui-tabs-bar__title {
+  margin: 0px 10px ;
+} 

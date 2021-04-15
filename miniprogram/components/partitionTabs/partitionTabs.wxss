@@ -1,0 +1,28 @@
+/* components/partitionTabs/partitionTabs.wxss */
+
+
+.weui-tabs-bar__wrp {
+  width: 100%;
+  background: #fff;
+  height: 50rpx;
+  
+}
+
+.weui-tabs-bar__content {
+  width: 100%;
+  white-space: nowrap;
+  
+}
+
+.weui-tabs-bar__item {
+  display: inline-block;
+  margin-left: 15rpx;
+  border-radius: 10rpx;
+  
+}
+
+.weui-tabs-bar__title {
+  font-size: 25rpx;
+  padding: 6rpx 2rpx;
+  
+}

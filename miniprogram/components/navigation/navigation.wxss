@@ -16,7 +16,7 @@
 .navigation.status-bar .goBack image{
   width: 36rpx;
   height: 36rpx;
-  padding:9rpx 40rpx 0 30rpx;
+  padding:15rpx 40rpx 0 30rpx;
 }
 
 .navigation.status-bar .tabar{
@@ -31,6 +31,8 @@
   display: flex;
   /* justify-content: center; */
 }
+
+
 
 
 

@@ -1,10 +1,12 @@
-// pages/aimtron/aimtron.js
+// pages/bangumi/bangumi.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    tabs: [],
+    activeTab: 0,
 
   },
 
@@ -12,7 +14,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const titles = ['推荐', '国产动画', '布袋戏', '动态漫 · 广播剧', '咨询', '国产原创相关']
+    const tabs = titles.map(item => ({title: item}))
+    this.setData({tabs})
+    
+  },
+  onTabCLick(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
+  },
 
+  onChange(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
   },
 
   /**
