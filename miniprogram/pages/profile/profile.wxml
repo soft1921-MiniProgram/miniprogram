@@ -4,7 +4,7 @@
       <view class="denglu-img">
         <image src="../../images/profile/head.png"></image>
       </view>
-      <view class="button-sp-area" bindtap="ResPage">
+      <view class="button-sp-area">
         <button class="mini-btn" size="mini">B站登录</button>
       </view>
       <!-- <view class="flex-item">
@@ -33,7 +33,7 @@
     </view>
 
     <view class="body-item">
-      <text class="his-name">意见反馈</text>
+      <text class="his-name" bindtap="ResPage">意见反馈</text>
     </view>
   </view>
 
