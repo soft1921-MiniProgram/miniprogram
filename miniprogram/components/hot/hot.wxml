@@ -1,14 +1,25 @@
 <!--components/hot/hot.wxml-->
 <!-- 视频单元 -->
-  <view wx:for="{{videoList}}">
+  <view class="out" >
     <!-- 视频图片、时长 -->
-    <view>
-      <img src="{{item.pic}}" alt=""/>
+    <view class="img-out">
+     <!-- <image src="{{videoObj.pic}}" mode="aspectFit" class="img"></image> -->
+     <image src="http://i1.hdslb.com/bfs/archive/8d2ca69e99f95dc3a8d0c5a9226cb4f49f618305.jpg" class="img"></image>
     </view>
     <!-- 视频其他内容 -->
-    <view>
+    <view class="text-out">
       <!-- 视频名称 -->
-      <text>{{item.title}}</text>
+      <!-- <text>{{videoObj.title}}</text> -->
+      <text class="title">【逸语道破】核废水入海危及全球，还有人给日本政府做“文宣”？</text>
       <!-- 视频作者 -->
+      <view>
+        <image src="../../images/component/ic_up.png" class="ic-up"></image>
+        <text>才疏学浅的才浅</text>
+      </view>
+      <!-- 播放量 -->
+      <view>
+        <image src="../../images/component/video_play_count.png" class="play-count"></image>
+      </view>
+      <!-- <text>{{videoObj.owner.name}}</text> -->
     </view>
   </view>

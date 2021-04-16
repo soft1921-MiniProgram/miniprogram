@@ -19,6 +19,7 @@
           "query": ""
         },
         {
+<<<<<<< HEAD
           "name": "pages/amusement/amusement",
           "pathName": "pages/amusement/amusement",
           "query": "",
@@ -47,6 +48,12 @@
           "pathName": "partitionpages/aimtron/aimtron",
           "query": "",
           "scene": null
+=======
+          "name": "hot",
+          "pathName": "components/hot/hot",
+          "query": "",
+          "scene": null
+>>>>>>> 223994a (热门组件)
         }
       ]
     }

@@ -1,9 +1,14 @@
 {
   "usingComponents": {
+<<<<<<< HEAD
     "s-search": "/components/search/search",
     "my-hot" : "/components/hot/hot",
     "bilibili-navigation":"/components/navigation/navigation",
     "bilibili-homeTabs":"/components/homeTabs/homeTabs"
     
+=======
+    "s-search": "../../components/search/search",
+    "my-hot" : "../../components/hot/hot"
+>>>>>>> 223994a (热门组件)
   }
 }

@@ -1,1 +1,46 @@
 /* components/hot/hot.wxss */
+.out {
+  width: 100%;
+  height: 250rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+ 
+
+}
+.img-out {
+  width: 40%;
+  height: 210rpx;
+  /* padding:20rpx */
+  padding:0 15rpx;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+.text-out {
+  width: 65%;
+  height: 240rpx;
+
+}
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+ 
+}
+
+.ic-up {
+  width: 35rpx;
+  height: 25rpx;
+}
+.play-count {
+  width: 40rpx;
+  height: 30rpx;
+}
+

@@ -1,4 +1,5 @@
 <!--pages/homePage/homePage.wxml-->
+<<<<<<< HEAD
 <!-- <my-hot videoList="{{video}}">
   </my-hot> -->
   <bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
@@ -18,4 +19,13 @@
 </bilibili-homeTabs>
   </view>
 </view>
+=======
+
+<block wx:for="{{video}}">
+  <my-hot videoObj="{{item}}" ></my-hot>
+  <!-- <image src="{{item.pic}}"></image> -->
+ </block>
+
+
+>>>>>>> 223994a (热门组件)
 

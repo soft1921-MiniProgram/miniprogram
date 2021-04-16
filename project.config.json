@@ -40,8 +40,12 @@
   "appid": "wx843234d083123b6b",
   "projectname": "Bilibili",
   "libVersion": "2.14.1",
+<<<<<<< HEAD
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+=======
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+>>>>>>> 223994a (热门组件)
   "condition": {
     "search": {
       "list": []

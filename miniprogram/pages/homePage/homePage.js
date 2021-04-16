@@ -6,9 +6,13 @@ Page({
    * 页面的初始数据
    */
   data: {
+<<<<<<< HEAD
     tabs: [],
     activeTab: 0,
 
+=======
+    video: [],
+>>>>>>> 223994a (热门组件)
   },
 
   /**
@@ -18,13 +22,20 @@ Page({
     wx.cloud.callFunction({
       name: 'biliApi'
     }).then((res) =>{
-      console.log(res)
+      
+      this.setData({
+        video: res.result,        
+      })
+      console.log(res.result)
     })
+<<<<<<< HEAD
 
     const titles = ['热门', '追番']
     const tabs = titles.map(item => ({title: item}))
     this.setData({tabs})
     
+=======
+>>>>>>> 223994a (热门组件)
   },
   onTabCLick(e) {
     const index = e.detail.index
@@ -36,14 +47,13 @@ Page({
     this.setData({activeTab: index})
   },
   
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+   
   },
-
+  
   /**
    * 生命周期函数--监听页面显示
    */
