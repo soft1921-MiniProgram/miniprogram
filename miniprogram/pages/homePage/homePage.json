@@ -8,7 +8,12 @@
     
 =======
     "s-search": "../../components/search/search",
+<<<<<<< HEAD
     "my-hot" : "../../components/hot/hot"
 >>>>>>> 223994a (热门组件)
+=======
+    "my-hot" : "../../components/hot/hot",
+    "bilibili-navigation":"/components/navigation/navigation"
+>>>>>>> 6a8b593 (hot组件)
   }
 }

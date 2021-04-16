@@ -21,20 +21,20 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
+    "useApiHostProcess": false,
+    "enableEngineNative": false,
+    "userConfirmedBundleSwitch": false,
     "minifyWXSS": true
   },
   "appid": "wx843234d083123b6b",
@@ -45,14 +45,13 @@
   "simulatorPluginLibVersion": {},
 =======
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+<<<<<<< HEAD
 >>>>>>> 223994a (热门组件)
+=======
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+>>>>>>> 6a8b593 (hot组件)
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
     "plugin": {
       "list": []
     },
@@ -60,7 +59,10 @@
       "list": []
     },
     "gamePlugin": {
+<<<<<<< HEAD
       "current": -1,
+=======
+>>>>>>> 6a8b593 (hot组件)
       "list": []
     },
     "miniprogram": {
@@ -72,9 +74,14 @@
           "query": ""
         },
         {
+<<<<<<< HEAD
           "id": -1,
           "name": "登录",
           "pathName": "pages/profile/profile",
+=======
+          "name": "hot",
+          "pathName": "components/hot/hot",
+>>>>>>> 6a8b593 (hot组件)
           "scene": null
         }
       ]

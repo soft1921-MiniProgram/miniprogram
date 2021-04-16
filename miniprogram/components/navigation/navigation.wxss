@@ -16,7 +16,11 @@
 .navigation.status-bar .goBack image{
   width: 36rpx;
   height: 36rpx;
+<<<<<<< HEAD
   padding:15rpx 40rpx 0 30rpx;
+=======
+  padding:12rpx 40rpx 0 30rpx;
+>>>>>>> 6a8b593 (hot组件)
 }
 
 .navigation.status-bar .tabar{
@@ -26,7 +30,11 @@
 }
 
 .navigation.status-bar .text{
+<<<<<<< HEAD
   padding-top: 18rpx;
+=======
+  padding-top: 15rpx;
+>>>>>>> 6a8b593 (hot组件)
   padding-bottom: 20rpx;
   display: flex;
   /* justify-content: center; */
@@ -34,5 +42,8 @@
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6a8b593 (hot组件)

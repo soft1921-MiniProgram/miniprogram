@@ -3,23 +3,31 @@
   <view class="out" >
     <!-- 视频图片、时长 -->
     <view class="img-out">
-     <!-- <image src="{{videoObj.pic}}" mode="aspectFit" class="img"></image> -->
-     <image src="http://i1.hdslb.com/bfs/archive/8d2ca69e99f95dc3a8d0c5a9226cb4f49f618305.jpg" class="img"></image>
+     <image src="{{videoObj.pic}}"  class="img"></image>
+     <!-- <image src="http://i1.hdslb.com/bfs/archive/8d2ca69e99f95dc3a8d0c5a9226cb4f49f618305.jpg" class="img"></image> -->
+     <text class="duration">11:57</text>
+     <!-- {{videoObj.duration}} -->
     </view>
     <!-- 视频其他内容 -->
     <view class="text-out">
       <!-- 视频名称 -->
-      <!-- <text>{{videoObj.title}}</text> -->
-      <text class="title">【逸语道破】核废水入海危及全球，还有人给日本政府做“文宣”？</text>
+      <text class="title">{{videoObj.title}}</text>
+      <!-- <text class="title">【逸语道破】核废水入海危及全球，还有人给日本政府做“文宣”？</text> -->
       <!-- 视频作者 -->
-      <view>
+      <view class="author">
         <image src="../../images/component/ic_up.png" class="ic-up"></image>
-        <text>才疏学浅的才浅</text>
+        <!-- <text class="author-name">才疏学浅的才浅</text> -->
+        <text class="author-name">{{videoObj.owner.name}}</text>
       </view>
       <!-- 播放量 -->
-      <view>
-        <image src="../../images/component/video_play_count.png" class="play-count"></image>
+      <view class="play-count">
+        <image src="../../images/component/video_play_count.png" class="play-count-icon"></image>
+        <text class="count">{{videoObj.stat.view}}</text>
       </view>
+      <!-- 发布日期 -->
+      <view class="ctime">4-11</view>
+      <!-- 分享图标 -->
+      <image src="../../images/component/forward.png" class="forward"></image>
       <!-- <text>{{videoObj.owner.name}}</text> -->
     </view>
   </view>

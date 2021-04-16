@@ -4,6 +4,7 @@
     "pages/homePage/homePage",
     "pages/partition/partition",
     "pages/profile/profile",
+<<<<<<< HEAD
     "partitionpages/bangumi/bangumi",
     "partitionpages/aimtron/aimtron",
     "partitionpages/documentary/documentary",
@@ -23,6 +24,27 @@
     "partitionpages/film/film",
     "partitionpages/teleplay/teleplay",
     "partitionpages/gameEvents/gameEvents"
+=======
+    "pages/bangumi/bangumi",
+    "pages/aimtron/aimtron",
+    "pages/documentary/documentary",
+    "pages/cartoon/cartoon",
+    "pages/music/music",
+    "pages/dance/dance",
+    "pages/game/game",
+    "pages/knowledge/knowledge",
+    "pages/digital/digital",
+    "pages/life/life",
+    "pages/food/food",
+    "pages/animal/animal",
+    "pages/ghost/ghost",
+    "pages/fashion/fashion",
+    "pages/amusement/amusement",
+    "pages/movie/movie",
+    "pages/film/film",
+    "pages/teleplay/teleplay",
+    "pages/gameEvents/gameEvents"
+>>>>>>> 6a8b593 (hot组件)
 
   ],
   "window": {
