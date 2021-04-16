@@ -3,7 +3,8 @@
   "pages": [
     "pages/homePage/homePage",
     "pages/partition/partition",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/response/response"
   ],
   "window": {
     "backgroundColor": "#FB7299",

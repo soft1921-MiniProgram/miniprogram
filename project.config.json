@@ -19,7 +19,7 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
+    "useMultiFrameRuntime": false,
     "useApiHook": true,
     "babelSetting": {
       "ignore": [],
@@ -55,12 +55,30 @@
     "game": {
       "list": []
     },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
     "miniprogram": {
       "list": [
         {
           "id": -1,
           "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide"
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "登录界面",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "反馈界面",
+          "pathName": "pages/response/response",
+          "scene": null
         }
       ]
     }

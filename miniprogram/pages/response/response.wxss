@@ -1,0 +1,40 @@
+/* pages/response/response.wxss */
+.title {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+  }
+
+.container {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.words {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.s-words {
+  font-size: 18px;
+  text-align: left;
+  color: #A9A9A9;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.hr {
+  background-color: #C0C0C0;
+  width: 85%;
+  margin-left: 20px;
+  margin-top: 5px;
+  height: 2px;
+}
+
+.p-arrow image{
+  background-position: -320rpx -412rpx;
+  width: 40rpx;
+  height: 40rpx;
+  }

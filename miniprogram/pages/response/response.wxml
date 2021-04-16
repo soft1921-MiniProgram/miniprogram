@@ -1,0 +1,34 @@
+<!--pages/response/response.wxml-->
+<view class="title">请选择反馈类型</view>
+
+<!-- <view class="container"> -->
+<view class="s-words">向开发者反馈</view>
+<hr class="hr"></hr>
+<view class="words">功能异常</view>
+<view class="s-words">请向开发者反馈小程序功能异常问题。</view>
+
+<!-- <view class="p-arrow">
+        <image src="../../images/profile/p-arrow.png"></image>
+      </view> -->
+
+<hr class="hr"></hr>
+
+
+<view class="words">产品建议</view>
+<view class="s-words">请向开发者反馈你对产品的相关建议。</view>
+
+<!-- <view class="p-arrow">
+        <image src="../../images/profile/p-arrow.png"></image>
+      </view> -->
+
+<hr class="hr"></hr>
+
+<view class="s-words">向微信平台投诉</view>
+<hr class="hr"></hr>
+<view class="words">违规举报</view>
+<view class="s-words">若遇色情、诱导、骚扰、欺诈、恶意营销、违法犯罪等情况，可向微信举报。</view>
+<!-- <view class="p-arrow">
+        <image src="../../images/profile/p-arrow.png"></image>
+      </view> -->
+
+<!-- </view> -->
