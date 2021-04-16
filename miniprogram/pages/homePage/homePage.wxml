@@ -25,21 +25,22 @@
    <view class="search-container">
     <!-- 引入搜索组件，接受子组件回传的search方法 -->
     <s-search bind:search="onSearch" />
+    <bilibili-homeTabs
+  tabs="{{tabs}}" 
+  activeTab="{{activeTab}}" 
+  swiperClass="weui-tabs-swiper"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+  activeClass="tab-bar-title__selected"
+>
+</bilibili-homeTabs>
   </view>
 <block wx:for="{{video}}">
   <my-hot videoObj="{{item}}" ></my-hot>
-  <!-- <image src="{{item.pic}}"></image> -->
  </block>
 
 
 >>>>>>> 223994a (热门组件)
 
-<!-- <my-hot videoList="{{video}}">
-  </my-hot> -->
- 
-  <!-- <view class="header"> -->
-
-
-<!-- </view> -->
 
 

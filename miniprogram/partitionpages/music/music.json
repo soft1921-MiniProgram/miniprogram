@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "usingComponents": {
     "bilibili-partitionTabs":"/components/partitionTabs/partitionTabs"
   }
+=======
+  "usingComponents": {}
+>>>>>>> 1d1a34f (视频详情略作修改)
 }

@@ -1,4 +1,7 @@
 {
+
+  "setting": {},
+
   "condition": {
     "plugin": {
       "list": []
@@ -10,6 +13,7 @@
       "list": []
     },
     "miniprogram": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "list": [
         {
@@ -59,6 +63,36 @@
 =======
       "list": []
 >>>>>>> 6a8b593 (hot组件)
+=======
+
+      "list": []
+
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/bangumi/bangumi",
+          "pathName": "pages/bangumi/bangumi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/amusement/amusement",
+          "pathName": "pages/amusement/amusement",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/partition/partition",
+          "pathName": "pages/partition/partition",
+          "scene": null
+        }
+      ]
+>>>>>>> 1d1a34f (视频详情略作修改)
     }
   }
 }
