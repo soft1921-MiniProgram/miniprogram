@@ -1,0 +1,21 @@
+/* components/minipage/minipage.wxss */
+.out {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  /* 主轴为Y轴 起点在上*/
+  flex-direction:column;
+  text-align: left;
+  margin: 20rpx;
+
+}
+.image {
+  width: 150rpx ;
+  height: 150rpx;
+  border-radius: 5rpx;
+}
+
+.new_ep {
+  color: rgb(133, 134, 136);
+  font-size: 25rpx;
+}

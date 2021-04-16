@@ -1,14 +1,41 @@
-<<<<<<< HEAD
 /* components/homeTabs/homeTabs.wxss */
-.weui-tabs{margin-top:20rpx;width:100%}
-.weui-tabs-bar__wrp{width:100%;background:#fff}
-.weui-tabs-bar__content{width:100%;white-space:nowrap;}
-.weui-tabs-bar__item{display:inline-block;margin-left:180rpx;}
-=======
-/* components/homeTabs/homeTabs.wxss */
-.weui-tabs{margin-top:20rpx;width:100%}
-.weui-tabs-bar__wrp{width:100%;background:#fff}
-.weui-tabs-bar__content{width:100%;white-space:nowrap;}
-.weui-tabs-bar__item{display:inline-block;margin-left:180rpx;}
->>>>>>> 1d1a34f (视频详情略作修改)
-.weui-tabs-bar__title{display:inline-block;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:pink}
+.out {
+  position: fixed;
+  top: 230rpx;
+  width: 100%;
+}
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #777;
+}
+  
+.tab-item {
+  width: 70rpx;
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: 500;
+  color: #777;
+  box-sizing: border-box;
+  margin: 0 20%;
+  
+}
+  
+.swiper {
+  height: 1100px;
+  background: #dfdfdf;
+}
+  
+.on {
+  color: #f50eb0e5;
+  border-bottom: 4rpx solid  #f50eb0e5;
+}
+
+.swiper-item  {
+  background: rgb(255, 255, 255);
+}
+
+.scroll {
+  height: 60%;
+}

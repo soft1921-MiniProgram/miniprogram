@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* pages/ghost/ghost.wxss */
 
 page{
@@ -28,6 +28,4 @@ page{
 .weui-tabs-bar__title {
   margin: 0px 10px ;
 } 
-=======
-/* pages/ghost/ghost.wxss */
->>>>>>> 1d1a34f (视频详情略作修改)
+

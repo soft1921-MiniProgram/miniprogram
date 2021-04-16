@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "bilibili-navigation":"/components/navigation/navigation"
-  }
-}

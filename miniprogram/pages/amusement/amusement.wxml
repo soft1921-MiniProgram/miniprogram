@@ -1,2 +1,0 @@
-<!--pages/amusement/amusement.wxml-->
-<bilibili-navigation  title='娱乐'  direction="top"></bilibili-navigation>

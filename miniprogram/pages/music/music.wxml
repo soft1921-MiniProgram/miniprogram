@@ -1,2 +1,0 @@
-<!--pages/music/music.wxml-->
-<bilibili-navigation  title='音乐'  direction="top"></bilibili-navigation>

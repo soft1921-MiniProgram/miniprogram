@@ -1,6 +1,5 @@
 <!--pages/aimtron/aimtron.wxml-->
 <bilibili-navigation title='国创'  direction="top"></bilibili-navigation>
-<<<<<<< HEAD
 <bilibili-partitionTabs
   tabs="{{tabs}}" 
   activeTab="{{activeTab}}" 
@@ -10,5 +9,4 @@
   activeClass="tab-bar-title__selected"
 >
 </bilibili-partitionTabs>
-=======
->>>>>>> 1d1a34f (视频详情略作修改)
+

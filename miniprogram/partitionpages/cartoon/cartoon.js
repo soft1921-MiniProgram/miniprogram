@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-// pages/bangumi/bangumi.js
-=======
-// pages/cartoon/cartoon.js
->>>>>>> 1d1a34f (视频详情略作修改)
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
+
     tabs: [],
     activeTab: 0,
-=======
->>>>>>> 1d1a34f (视频详情略作修改)
+
 
   },
 
@@ -21,7 +16,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-<<<<<<< HEAD
+
     const titles = ['推荐', 'MAD · AMV', 'MMD · 3D', '短片 · 手书 · 配音', '手办 · 模玩', '特摄']
     const tabs = titles.map(item => ({title: item}))
     this.setData({tabs})
@@ -35,9 +30,7 @@ Page({
   onChange(e) {
     const index = e.detail.index
     this.setData({activeTab: index})
-=======
 
->>>>>>> 1d1a34f (视频详情略作修改)
   },
 
   /**

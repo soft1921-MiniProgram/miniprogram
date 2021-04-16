@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <bilibili-navigation  title='电影'  direction="top"></bilibili-navigation>
 <bilibili-partitionTabs
   tabs="{{tabs}}" 
@@ -9,6 +9,4 @@
   activeClass="tab-bar-title__selected"
 >
 </bilibili-partitionTabs>
-=======
-<bilibili-navigation  title='电影'  direction="top"></bilibili-navigation>
->>>>>>> 1d1a34f (视频详情略作修改)
+

@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "my-hot" : "../../components/hot/hot"
+  }
 }

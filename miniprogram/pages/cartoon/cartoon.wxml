@@ -1,2 +1,0 @@
-<!--pages/cartoon/cartoon.wxml-->
-<bilibili-navigation  title='动画'  direction="top"></bilibili-navigation>

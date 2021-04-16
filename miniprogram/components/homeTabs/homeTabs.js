@@ -1,47 +1,57 @@
+// components/homeTabs/homeTabs.js
 Component({
-  options: {
-      addGlobalClass: true,
-      pureDataPattern: /^_/,
-      multipleSlots: true
-  },
+  /**
+   * 组件的属性列表
+   */
   properties: {
-      tabs: { type: Array, value: [] },
-      tabClass: { type: String, value: '' },
-      swiperClass: { type: String, value: '' },
-      activeClass: { type: String, value: '' },
-      tabUnderlineColor: { type: String, value: '#FB7299' },
-      tabActiveTextColor: { type: String, value: '#FB7299' },
-      tabInactiveTextColor: { type: String, value: '#000000' },
-      tabBackgroundColor: { type: String, value: '#ffffff' },
-      activeTab: { type: Number, value: 0 },
-      duration: { type: Number, value: 500 }
+
   },
+
+  /**
+   * 组件的初始数据
+   */
   data: {
-      currentView: 0
-  },
-  observers: {
-      activeTab: function activeTab(_activeTab) {
-          var len = this.data.tabs.length;
-          if (len === 0) return;
-          var currentView = _activeTab - 1;
-          if (currentView < 0) currentView = 0;
-          if (currentView > len - 1) currentView = len - 1;
-          this.setData({ currentView: currentView });
-      }
+    _currentTab: 0,
+    _video: [],
   },
   lifetimes: {
-      created: function created() {}
+    created:function(){
+      wx.cloud.callFunction({
+        name: 'biliApi'
+      }).then((res) =>{
+        this.setData({
+          _video: res.result,        
+        })
+        console.log(res.result)
+      })
+    }
   },
+
+  /**
+   * 组件的方法列表
+   */
   methods: {
-      handleTabClick: function handleTabClick(e) {
-          var index = e.currentTarget.dataset.index;
-          this.setData({ activeTab: index });
-          this.triggerEvent('tabclick', { index: index });
-      },
-      handleSwiperChange: function handleSwiperChange(e) {
-          var index = e.detail.current;
-          this.setData({ activeTab: index });
-          this.triggerEvent('change', { index: index });
+    /**
+     * 监听点击事件触发元素
+     * @param {*} event 
+     */
+    _switchNav(event) {
+      // console.log(event.target.dataset)
+      if(this.data._currentTab ===event.target.dataset.current){
+        return false
+      }else {
+        this.setData({
+          _currentTab : event.target.dataset.current
+        })
       }
+      // console.log(this.data._currentTab)
+    },
+
+    _swiperChange(event) {
+      // console.log(event)
+      this.setData({
+        _currentTab: event.detail.current
+      })
+    }
   }
-});
+})

@@ -6,20 +6,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     tabs: [],
     activeTab: 0,
 
-=======
-    video: [],
->>>>>>> 223994a (热门组件)
-=======
-
-    video: [],
-    tabs: [],
-    activeTab: 0,
->>>>>>> 1d1a34f (视频详情略作修改)
   },
 
   /**
@@ -35,21 +25,14 @@ Page({
       })
       console.log(res.result)
     })
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 1d1a34f (视频详情略作修改)
+
+
 
     const titles = ['热门', '追番']
     const tabs = titles.map(item => ({title: item}))
     this.setData({tabs})
     
-<<<<<<< HEAD
-=======
->>>>>>> 223994a (热门组件)
-=======
->>>>>>> 1d1a34f (视频详情略作修改)
   },
   onTabCLick(e) {
     const index = e.detail.index

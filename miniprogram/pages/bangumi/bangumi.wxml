@@ -1,2 +1,0 @@
-<!--pages/bangumi/bangumi.wxml-->
-<bilibili-navigation title='番剧'  direction="top"></bilibili-navigation>

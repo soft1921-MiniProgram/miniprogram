@@ -1,10 +1,7 @@
 {
   "usingComponents": {
-<<<<<<< HEAD
     "bilibili-navigation":"/components/navigation/navigation",
     "bilibili-partitionTabs":"/components/partitionTabs/partitionTabs"
-=======
-    "bilibili-navigation":"/components/navigation/navigation"
->>>>>>> 1d1a34f (视频详情略作修改)
+
   }
 }

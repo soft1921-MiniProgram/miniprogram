@@ -1,2 +1,0 @@
-<!--pages/life/life.wxml-->
-<bilibili-navigation  title='生活'  direction="top"></bilibili-navigation>

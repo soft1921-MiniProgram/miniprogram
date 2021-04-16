@@ -1,7 +1,4 @@
 {
-
-  "setting": {},
-
   "condition": {
     "plugin": {
       "list": []
@@ -13,8 +10,6 @@
       "list": []
     },
     "miniprogram": {
-<<<<<<< HEAD
-<<<<<<< HEAD
       "list": [
         {
           "id": -1,
@@ -23,76 +18,19 @@
           "query": ""
         },
         {
-<<<<<<< HEAD
-          "name": "pages/amusement/amusement",
-          "pathName": "pages/amusement/amusement",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/partition/partition",
-          "pathName": "pages/partition/partition",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "components/hot/hot",
-          "pathName": "components/hot/hot",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "partitionpages/bangumi/bangumi",
-          "pathName": "partitionpages/bangumi/bangumi",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "partitionpages/aimtron/aimtron",
-          "pathName": "partitionpages/aimtron/aimtron",
-          "query": "",
-          "scene": null
-=======
+          "id": -1,
           "name": "hot",
           "pathName": "components/hot/hot",
           "query": "",
           "scene": null
->>>>>>> 223994a (热门组件)
-        }
-      ]
-=======
-      "list": []
->>>>>>> 6a8b593 (hot组件)
-=======
-
-      "list": []
-
-      "list": [
-        {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide",
-          "query": ""
         },
         {
-          "name": "pages/bangumi/bangumi",
-          "pathName": "pages/bangumi/bangumi",
+          "name": "week",
+          "pathName": "components/week/week",
           "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/amusement/amusement",
-          "pathName": "pages/amusement/amusement",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/partition/partition",
-          "pathName": "pages/partition/partition",
           "scene": null
         }
       ]
->>>>>>> 1d1a34f (视频详情略作修改)
     }
   }
 }

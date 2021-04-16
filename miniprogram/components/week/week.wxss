@@ -1,0 +1,31 @@
+/* components/week/week.wxss */
+.out {
+  position: absolute;
+  top: 20%;
+}
+
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.tab-item {
+  width: 70rpx;
+  height: 40rpx;
+  margin-left: 19rpx;
+  margin-right: 20rpx;
+  /* justify-content:space-around; */
+  text-align: center;
+
+}
+
+.on {
+  border-radius: 18rpx;
+  background-color: rgb(238, 118, 174);
+  color: aliceblue;
+}
+
+.week {
+  color: rgb(238, 118, 174);
+}

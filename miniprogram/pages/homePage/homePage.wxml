@@ -1,46 +1,11 @@
-<!--pages/homePage/homePage.wxml-->
-<<<<<<< HEAD
-<!-- <my-hot videoList="{{video}}">
-  </my-hot> -->
-  <bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
-  <view class="header">
 
-  <view class="search-container">
+<bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
     <!-- 引入搜索组件，接受子组件回传的search方法 -->
     <s-search bind:search="onSearch" />
-    <bilibili-homeTabs
-  tabs="{{tabs}}" 
-  activeTab="{{activeTab}}" 
-  swiperClass="weui-tabs-swiper"
-  bindtabclick="onTabCLick"
-  bindchange="onChange"
-  activeClass="tab-bar-title__selected"
->
-</bilibili-homeTabs>
-  </view>
-</view>
-=======
-
- <bilibili-navigation showIcon='{{false}}' title='哔哩哔哩'  direction="top"></bilibili-navigation>
-   <view class="search-container">
-    <!-- 引入搜索组件，接受子组件回传的search方法 -->
-    <s-search bind:search="onSearch" />
-    <bilibili-homeTabs
-  tabs="{{tabs}}" 
-  activeTab="{{activeTab}}" 
-  swiperClass="weui-tabs-swiper"
-  bindtabclick="onTabCLick"
-  bindchange="onChange"
-  activeClass="tab-bar-title__selected"
->
-</bilibili-homeTabs>
-  </view>
-<block wx:for="{{video}}">
-  <my-hot videoObj="{{item}}" ></my-hot>
- </block>
+    <my-homeTabs></my-homeTabs>
 
 
->>>>>>> 223994a (热门组件)
+
 
 
 

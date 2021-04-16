@@ -1,2 +1,0 @@
-<!--pages/knowledge/knowledge.wxml-->
-<bilibili-navigation  title='知识'  direction="top"></bilibili-navigation>

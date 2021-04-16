@@ -65,7 +65,7 @@ Page({
         name: '游戏赛事'
       }, 
     ],
-<<<<<<< HEAD
+
   },
 
   goTo:function(e){
@@ -185,135 +185,7 @@ Page({
     }
 
   },
-
-=======
-    
-  },
-
-<<<<<<< HEAD
->>>>>>> 6a8b593 (hot组件)
-=======
-
-  goTo: function(e){
-
-    if ("番剧"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-       url: '../../partitionpages/bangumi/bangumi',
-      })
-    }
-
-    if ("国创"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/aimtron/aimtron',
-      })
-    }
-
-    if ("纪录片"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/documentary/documentary',
-      })
-    }
-
-    if ("动画"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/cartoon/cartoon',
-      })
-    }
-
-    if ("音乐"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/music/music',
-      })
-    }
-
-    if ("舞蹈"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/dance/dance',
-      })
-    }
-
-    if ("游戏"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/game/game',
-      })
-    }
-
-    if ("知识"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/knowledge/knowledge',
-      })
-    }
-
-    if ("数码"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/digital/digital',
-      })
-    }
-
-    if ("生活"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/life/life',
-      })
-    }
-
-    if ("美食"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/food/food',
-      })
-    }
-
-    if ("动物圈"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/animal/animal',
-      })
-    }
-
-    if ("鬼畜"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/ghost/ghost',
-      })
-    }
-
-    if ("时尚"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/fashion/fashion',
-      })
-    }
-
-    if ("娱乐"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/amusement/amusement',
-      })
-    }
-
-    if ("影视"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/movie/movie',
-      })
-    }
-
-    if ("电影"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/film/film',
-      })
-    }
-
-    if ("电视剧"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/teleplay/teleplay',
-      })
-    }
-
-    if ("游戏赛事"==e.currentTarget.dataset.text){
-      wx.navigateTo({
-        url: '../../partitionpages/gameEvents/gameEvents',
-      })
-    }
-
-  },
-
->>>>>>> 1d1a34f (视频详情略作修改)
-   
+ 
   /**
    * 生命周期函数--监听页面加载
    */

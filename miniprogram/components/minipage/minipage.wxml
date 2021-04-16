@@ -1,0 +1,6 @@
+<!--components/minipage/minipage.wxml-->
+<view class="out">
+  <image src="{{_video.cover}}" class="image"></image>
+  <text class="title">{{_video.title}}</text>
+  <text class="new_ep">第{{_video.new_ep.title}}话</text>
+</view>

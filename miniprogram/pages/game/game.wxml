@@ -1,2 +1,0 @@
-<!--pages/game/game.wxml-->
-<bilibili-navigation  title='游戏'  direction="top"></bilibili-navigation>

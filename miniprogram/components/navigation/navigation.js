@@ -11,15 +11,10 @@ Component({
     },
     titleColor:{ //标题颜色，默认白色
       type:String,
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       value:'#000000'
-=======
-      value:'#'
->>>>>>> 6a8b593 (hot组件)
-=======
-      value:'#000000'
->>>>>>> 1d1a34f (视频详情略作修改)
+
+
     },
     showIcon:{ //返回箭头是否显示，默认显示
       type:Boolean,
