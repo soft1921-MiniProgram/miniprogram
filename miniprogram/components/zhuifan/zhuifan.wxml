@@ -1,0 +1,4 @@
+<!--components/zhuifan/zhuifan.wxml-->
+<block>
+  <my-minipage></my-minipage>
+</block>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-hot" : "../../components/hot/hot"
+  }
+}

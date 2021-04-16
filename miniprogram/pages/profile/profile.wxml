@@ -1,3 +1,4 @@
+
 <view class="profile">
   <view class="user-info">
     <view class="flex-cont flex-simple">
@@ -33,7 +34,11 @@
     </view>
 
     <view class="body-item">
+<<<<<<< HEAD
       <text class="his-name" bindtap="ResPage">意见反馈</text>
+=======
+      <text class="his-name">意见反馈</text>
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
     </view>
   </view>
 

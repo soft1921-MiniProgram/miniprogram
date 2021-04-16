@@ -7,6 +7,9 @@ Page({
    */
   data: {
 
+    tabs: [],
+    activeTab: 0,
+
   },
 
   /**
@@ -16,19 +19,38 @@ Page({
     wx.cloud.callFunction({
       name: 'biliApi'
     }).then((res) =>{
-      console.log(res)
+      
+      this.setData({
+        video: res.result,        
+      })
+      console.log(res.result)
     })
+
+
+
+
+    const titles = ['热门', '追番']
+    const tabs = titles.map(item => ({title: item}))
+    this.setData({tabs})
     
   },
-  
+  onTabCLick(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
+  },
 
+  onChange(e) {
+    const index = e.detail.index
+    this.setData({activeTab: index})
+  },
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+   
   },
-
+  
   /**
    * 生命周期函数--监听页面显示
    */

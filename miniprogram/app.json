@@ -4,14 +4,42 @@
     "pages/homePage/homePage",
     "pages/partition/partition",
     "pages/profile/profile",
+<<<<<<< HEAD
     "pages/response/response"
+=======
+    
+    "partitionpages/bangumi/bangumi",
+    "partitionpages/aimtron/aimtron",
+    "partitionpages/documentary/documentary",
+    "partitionpages/cartoon/cartoon",
+    "partitionpages/music/music",
+    "partitionpages/dance/dance",
+    "partitionpages/game/game",
+    "partitionpages/knowledge/knowledge",
+    "partitionpages/digital/digital",
+    "partitionpages/life/life",
+    "partitionpages/food/food",
+    "partitionpages/animal/animal",
+    "partitionpages/ghost/ghost",
+    "partitionpages/fashion/fashion",
+    "partitionpages/amusement/amusement",
+    "partitionpages/movie/movie",
+    "partitionpages/film/film",
+    "partitionpages/teleplay/teleplay",
+    "partitionpages/gameEvents/gameEvents"
+
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
   ],
   "window": {
-    "backgroundColor": "#FB7299",
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "哔哩哔哩",
     "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "bilibili-navigation":"/components/navigation/navigation"
   },
   "tabBar": {
     "color": "#474747",

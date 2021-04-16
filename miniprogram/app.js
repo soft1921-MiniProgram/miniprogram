@@ -14,6 +14,44 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+      sysInfo: this.getSysInfo(),
+      openid: -1,
+    }
+  },
+  getOpenid() {
+    wx.cloud.callFunction({
+      name: 'login'
+    }).then((res) => {
+      const openid = res.result.openid
+      this.globalData.openid = openid
+      if (wx.getStorageSync(openid) == '') {
+        wx.setStorageSync(openid, [])
+      }
+    })
+  },
+
+  getSysInfo: function () {
+    //获得系统信息
+    let systemInfo = wx.getSystemInfoSync()
+    //计算px转换到rpx的比列
+    let pxToRpxScale = 750 / systemInfo.windowWidth;
+    //状态栏的高度px
+    let statusBarHeight = systemInfo.statusBarHeight
+    ////////
+    //胶囊按钮信息
+    let rect = wx.getMenuButtonBoundingClientRect()
+    const sysInFo = {
+      pxToRpxScale,
+      statusBarHeight,
+      rect
+    }
+    return sysInFo
+  },
+
+  onShow(options) {
+    console.log('onShow 执行')
+    console.log(options)
   }
+
 })

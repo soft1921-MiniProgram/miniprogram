@@ -1,14 +1,28 @@
 <!--components/hot/hot.wxml-->
 <!-- 视频单元 -->
-  <view wx:for="{{videoList}}">
-    <!-- 视频图片、时长 -->
-    <view>
-      <img src="{{item.pic}}" alt=""/>
-    </view>
-    <!-- 视频其他内容 -->
-    <view>
-      <!-- 视频名称 -->
-      <text>{{item.title}}</text>
-      <!-- 视频作者 -->
-    </view>
+<view class="out">
+  <!-- 视频图片、时长 -->
+  <view class="img-out">
+    <image src="{{videoObj.pic}}" class="img"></image>
+    <text class="duration">11:57</text>
   </view>
+  <!-- 视频其他内容 -->
+  <view class="text-out">
+    <!-- 视频名称 -->
+    <text class="title">{{videoObj.title}}</text>
+    <!-- 视频作者 -->
+    <view class="author">
+      <image src="../../images/component/ic_up.png" class="ic-up"></image>
+      <text class="author-name">{{videoObj.owner.name}}</text>
+    </view>
+    <!-- 播放量 -->
+    <view class="play-count">
+      <image src="../../images/component/video_play_count.png" class="play-count-icon"></image>
+      <text class="count">{{videoObj.stat.view}}</text>
+    </view>
+    <!-- 发布日期 -->
+    <view class="ctime">4-11</view>
+    <!-- 分享图标 -->
+    <image src="../../images/component/forward.png" class="forward"></image>
+  </view>
+</view>

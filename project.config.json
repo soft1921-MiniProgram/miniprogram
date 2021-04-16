@@ -40,15 +40,13 @@
   "appid": "wx843234d083123b6b",
   "projectname": "Bilibili",
   "libVersion": "2.14.1",
+
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
     "plugin": {
       "list": []
     },
@@ -60,8 +58,7 @@
       "list": []
     },
     "miniprogram": {
-      "list": [
-        {
+      "list": [{
           "id": -1,
           "name": "db guide",
           "pathName": "pages/databaseGuide/databaseGuide",
@@ -69,6 +66,7 @@
         },
         {
           "id": -1,
+<<<<<<< HEAD
           "name": "登录界面",
           "pathName": "pages/profile/profile",
           "query": "",
@@ -78,6 +76,12 @@
           "id": -1,
           "name": "反馈界面",
           "pathName": "pages/response/response",
+=======
+          "name": "登录",
+          "pathName": "pages/profile/profile",
+          "name": "hot",
+          "pathName": "components/hot/hot",
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
           "scene": null
         }
       ]

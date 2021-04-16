@@ -1,0 +1,7 @@
+{
+
+  "usingComponents": {
+    "bilibili-partitionTabs":"/components/partitionTabs/partitionTabs"
+  }
+
+}

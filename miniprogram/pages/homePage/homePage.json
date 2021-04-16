@@ -1,6 +1,10 @@
 {
-  "usingComponents": {
-    "s-search": "/components/search/search",
-    "my-hot" : "/components/hot/hot"
+    "usingComponents": {
+  
+      "s-search": "../../components/search/search",
+      "my-hot" : "../../components/hot/hot",
+      "bilibili-navigation":"/components/navigation/navigation",
+      "my-homeTabs":"/components/homeTabs/homeTabs"
+      
+    }
   }
-}

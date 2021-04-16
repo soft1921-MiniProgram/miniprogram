@@ -1,0 +1,41 @@
+/* components/homeTabs/homeTabs.wxss */
+.out {
+  position: fixed;
+  top: 230rpx;
+  width: 100%;
+}
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #777;
+}
+  
+.tab-item {
+  width: 70rpx;
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: 500;
+  color: #777;
+  box-sizing: border-box;
+  margin: 0 20%;
+  
+}
+  
+.swiper {
+  height: 1100px;
+  background: #dfdfdf;
+}
+  
+.on {
+  color: #f50eb0e5;
+  border-bottom: 4rpx solid  #f50eb0e5;
+}
+
+.swiper-item  {
+  background: rgb(255, 255, 255);
+}
+
+.scroll {
+  height: 60%;
+}

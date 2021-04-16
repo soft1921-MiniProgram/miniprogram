@@ -1,1 +1,111 @@
 /* components/hot/hot.wxss */
+.out {
+  position: relative;
+  width: 100%;
+  height: 220rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.02px solid #383737 ;
+
+}
+
+.img-out {
+  width: 40%;
+  height: 190rpx;
+  /* padding:20rpx */
+  padding: 0 15rpx;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.duration {
+  display: block;
+  width: 50rpx;
+  height: 26rpx;
+  border-radius: 4rpx;
+  font-size: 17rpx;
+  text-align: center;
+  line-height: 26rpx;
+  padding: 0rpx;
+  margin: 0;
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 13%;
+  left: 30%;
+}
+
+.text-out {
+  width: 65%;
+  height: 200rpx;
+
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+
+.author {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 65%;
+  
+}
+
+.ic-up {
+  width: 35rpx;
+  height: 25rpx;
+  margin-left: 5rpx;
+}
+
+.author-name {
+  display: block;
+  font-size: 21rpx;
+  margin-left: 3rpx;
+  color: #494848;
+}
+
+.play-count {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 81%;
+}
+
+.play-count-icon {
+  width: 40rpx;
+  height: 30rpx;
+}
+.play-count .count {
+  display: block;
+  font-size: 21rpx;
+  margin-left: 3rpx;
+  color: #494848;
+}
+.ctime {
+  position: absolute;
+  font-size: 21rpx;
+  margin-left: 3rpx;
+  top: 82%;
+  right: 30%;
+  color: #494848;
+}
+
+
+.forward {
+  position: absolute;
+  width: 22rpx;
+  height: 22rpx;
+  right: 30rpx;
+  bottom: 35rpx;
+}

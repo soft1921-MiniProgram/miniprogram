@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "bilibili-navigation":"/components/navigation/navigation",
+    "bilibili-partitionTabs":"/components/partitionTabs/partitionTabs"
+
+  }
+}

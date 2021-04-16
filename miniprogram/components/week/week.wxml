@@ -1,0 +1,30 @@
+<!-- 星期栏 -->
+<view class="out">
+  <view class="swiper-tab"> 
+    <view class="tab-item {{_current==2? 'on':''}} {{_week==2? 'week':''}}" bindtap="_switchNav" data-current="2">{{_current==2? '周':''}}二</view>
+    <view class="tab-item {{_current==3? 'on':''}} {{_week==3? 'week':''}}" bindtap="_switchNav" data-current="3">{{_current==3? '周':''}}三</view>
+    <view class="tab-item {{_current==4? 'on':''}} {{_week==4? 'week':''}}" bindtap="_switchNav" data-current="4">{{_current==4? '周':''}}四</view>
+    <view class="tab-item {{_current==5? 'on':''}} {{_week==5? 'week':''}}" bindtap="_switchNav" data-current="5">{{_current==5? '周':''}}五</view>
+    <view class="tab-item {{_current==6? 'on':''}} {{_week==6? 'week':''}}" bindtap="_switchNav" data-current="6">{{_current==6? '周':''}}六</view>
+    <view class="tab-item {{_current==7? 'on':''}} {{_week==7? 'week':''}}" bindtap="_switchNav" data-current="7">{{_current==7? '周':''}}日</view>
+    <view class="tab-item {{_current==8? 'on':''}} {{_week==8? 'week':''}}" bindtap="_switchNav" data-current="8">{{_current==8? '周':''}}一</view>
+  </view>
+
+    <!-- 分页内容 -->
+  <swiper class="swiper" current="{{_current-2}}" duration="200" bindchange="_swiperChange">
+    <swiper-item class="swiper-item">
+      <my-minipage></my-minipage>
+    </swiper-item>
+    <swiper-item class="swiper-item">3</swiper-item>
+    <swiper-item class="swiper-item">4</swiper-item>
+    <swiper-item class="swiper-item">5</swiper-item>
+    <swiper-item class="swiper-item">6</swiper-item>
+    <swiper-item class="swiper-item">7</swiper-item>
+    <swiper-item class="swiper-item">1</swiper-item>
+  </swiper>
+
+
+
+
+
+</view>

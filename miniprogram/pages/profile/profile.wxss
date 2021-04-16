@@ -1,14 +1,23 @@
 /*我的*/
 .profile {
+  margin-top: 50px;
   overflow: auto;
   min-height: 100%;
   background-color: #f4f4f4;
 }
 
+<<<<<<< HEAD
 .user-info {
   margin:100rpx 0 0 0;
   width: 100%;
   height: 250px;
+=======
+
+.user-info {
+  margin:100rpx 0 0 0;
+  width: 100%;
+  height: 200px;
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
   display: flex;
   justify-content:space-between;
   /* flex-wrap:wrap; */
@@ -26,15 +35,25 @@
     padding: 0 0.75rem;
     flex: 1;
   }
+<<<<<<< HEAD
   .denglu-img image{
     margin-top: -100px;
+=======
+
+  .denglu-img image{
+    margin-top: -50px;
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
     margin-left: 150px; 
     width: 200rpx;
     height: 200rpx;
     border-radius: 50%;
   }
   .button-sp-area{
+<<<<<<< HEAD
     margin-top: 100px;
+=======
+    margin-top: 150px;
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
     margin-left: -100px;
     width: 60%;
     display: flex;
@@ -46,6 +65,10 @@
 
   .body-wrapper {
     margin:100rpx 0 0 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
     margin-bottom: 1.75rem;
   }
   .body-wrapper .body-item {
@@ -62,6 +85,10 @@
       color: #747570;
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56
   .body-wrapper .body-item .his-name {
   flex: 1;
   padding-left: 0.625rem;
@@ -83,7 +110,9 @@
     font-size: 30rpx;
     margin: 0 auto;
     padding: 0.625rem 0;
+
   }
+<<<<<<< HEAD
 
 
   /* 原有的登录、注册删去 */
@@ -106,3 +135,5 @@
   color: #de698c;
   margin: 0 auto;
   } */
+=======
+>>>>>>> a9179c4e3cf6d463ff39855935814bccd7d56e56

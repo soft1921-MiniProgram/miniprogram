@@ -1,0 +1,12 @@
+<!--pages/dance/dance.wxml-->
+<bilibili-navigation  title='舞蹈'  direction="top"></bilibili-navigation>
+
+<bilibili-partitionTabs
+  tabs="{{tabs}}" 
+  activeTab="{{activeTab}}" 
+  swiperClass="weui-tabs-swiper"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+  activeClass="tab-bar-title__selected"
+>
+</bilibili-partitionTabs>

@@ -1,0 +1,12 @@
+<!--pages/aimtron/aimtron.wxml-->
+<bilibili-navigation title='国创'  direction="top"></bilibili-navigation>
+<bilibili-partitionTabs
+  tabs="{{tabs}}" 
+  activeTab="{{activeTab}}" 
+  swiperClass="weui-tabs-swiper"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+  activeClass="tab-bar-title__selected"
+>
+</bilibili-partitionTabs>
+
